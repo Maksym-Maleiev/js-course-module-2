@@ -6,5 +6,6 @@ function checkAge(age) {
   } else {
     message = 'Ви не повнолітня людина';
   }
+
   return message;
 }
