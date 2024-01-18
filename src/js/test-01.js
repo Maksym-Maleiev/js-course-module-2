@@ -1,9 +1,10 @@
 function checkAge(age) {
-  let message;
+  let message = '';
+
   if (age >= 18) {
-    message = 'Вы совершеннолетний человек';
+    message = 'Ви повнолітня людина';
   } else {
-    message = 'Вы не совершеннолетний человек';
+    message = 'Ви не повнолітня людина';
   }
   return message;
 }
