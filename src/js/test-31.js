@@ -12,3 +12,5 @@ function findNumber(start, end, divisor) {
   return number;
   // Change code above this line
 }
+
+console.log(findNumber(2, 6, 5));
