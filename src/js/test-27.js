@@ -14,6 +14,6 @@ function filterArray(numbers, value) {
 
 console.log(filterArray([1, 2, 3, 4, 5], 3));
 console.log(filterArray([1, 2, 3, 4, 5], 4));
-console.log(filterArray([1, 2, 3, 4, 5], 3));
+console.log(filterArray([1, 2, 3, 4, 5], 5));
 console.log(filterArray([1, 2, 3, 4, 5], 3));
 console.log(filterArray([1, 2, 3, 4, 5], 3));
