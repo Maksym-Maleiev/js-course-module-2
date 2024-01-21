@@ -1,6 +1,6 @@
 // Change code below this line
-const a = 3 % ;
-const b = 4 % ;
-const c = 11 % ;
-const d = 12 % ;
-const e = 8 % ;
+const a = 3 % 3;
+const b = 4 % 3;
+const c = 11 % 4;
+const d = 12 % 8;
+const e = 8 % 6;
