@@ -2,7 +2,9 @@ function includes(array, value) {
   // Change code below this line
   let result;
 
-  for (const element of array) {
+  for (let i = 0; i < array.length; i += 1) {
+    const element = array[i];
+
     result = element === value ? true : false;
   }
 
