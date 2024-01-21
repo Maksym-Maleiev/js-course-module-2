@@ -1,14 +1,13 @@
 function includes(array, value) {
   // Change code below this line
-  let result;
-
   for (let i = 0; i < array.length; i += 1) {
     const element = array[i];
-
-    result = element === value ? true : false;
+    if (element === value) {
+      return true;
+    }
   }
 
-  return result;
+  return false;
   // Change code above this line
 }
 
