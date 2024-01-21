@@ -9,3 +9,5 @@ function calculateTotalPrice(order) {
   // Change code above this line
   return total;
 }
+
+console.log(calculateTotalPrice([12, 85, 37, 4]));
