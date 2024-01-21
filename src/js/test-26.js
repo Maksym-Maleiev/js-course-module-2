@@ -11,3 +11,6 @@ function calculateTotalPrice(order) {
 }
 
 console.log(calculateTotalPrice([12, 85, 37, 4]));
+console.log(calculateTotalPrice([12, 85, 37, 4]));
+console.log(calculateTotalPrice([12, 85, 37, 4]));
+console.log(calculateTotalPrice([12, 85, 37, 4]));
