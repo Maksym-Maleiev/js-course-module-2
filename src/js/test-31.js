@@ -14,3 +14,6 @@ function findNumber(start, end, divisor) {
 }
 
 console.log(findNumber(2, 6, 5));
+console.log(findNumber(8, 17, 3));
+console.log(findNumber(6, 9, 4));
+console.log(findNumber(16, 35, 7));
