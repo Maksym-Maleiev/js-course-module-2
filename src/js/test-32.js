@@ -2,8 +2,8 @@ function includes(array, value) {
   // Change code below this line
   let result;
 
-  for (let i = 0; i < array.length; i += 1) {
-    result = array.includes(value) ? true : false;
+  for (const element of array) {
+    result = element === value ? true : false;
   }
 
   return result;
