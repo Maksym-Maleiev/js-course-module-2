@@ -2,10 +2,15 @@ function getEvenNumbers(start, end) {
   // Change code below this line
   let arr = [];
 
-  for (let start = 0; i <= end; i += 1) {
+  for (let i = start; i <= end; i += 1) {
+    const number = i;
 
-    if(){}
+    if (i % 2 === 0) {
+      arr.push(i);
+    }
   }
+
+  return arr;
   // Change code above this line
 }
 
